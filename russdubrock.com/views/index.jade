@@ -1,0 +1,63 @@
+extends layout
+
+block content
+  doctype html(lang='en')
+  head
+      title Russ DuBrock    
+      meta(charset='utf-8')
+      meta(http-equiv='X-UA-Compatible', content='IE=edge')
+      meta(name='viewport', content='width=device-width, initial-scale=1')
+  body
+    .container-fluid
+      .header
+        h1
+          | My name is Russ.
+          br       
+          span I&apos;m a developer
+      .content-container
+        #project-row.row
+          h1 Check out my latest project
+          hr
+          #slider.row
+            .row
+              .thumbnail
+                .caption
+                  h3 Treksmith
+                  p 
+                    |Treksmith allows users to build, save, and share custom routes created on a simple and intuitive interface. I worked with a team of 4 over the course of a month to create Treksmith, and work is ongoing. We used a MEAN stack (Mongo, Express, Angular, Node).  
+                  a.btn.btn-default(href='www.treksmith.com')
+                    p Site
+                  a.btn.btn-default(href='https://github.com/wbeck32/road-warrior')
+                    p Github
+                img(src='./images/treksmith.png')
+        #tools-row.row
+          
+            h1#tools The Tools I&apos;ve Been Using
+            .row.row-eq-height#tools-images
+              .col-md-3.col-sm-3.pull-middle
+                  img.node-logo(src='./images/2000px-Node.js_logo.svg.png')
+              .col-md-3.col-sm-3.pull-middle
+                  img.html-logo(src='./images/html-css-js.png')
+              .col-md-3.col-sm-3.pull-middle
+                  img.angular-logo(src='./images/angular-js.jpg')
+              .col-md-3.col-sm-3.pull-middle
+                  img(src='./images/mongo.png')
+        #contact-row.row
+          div.col-md-4.col-sm-4.contact-photo
+            img(src='./images/russphoto.jpg')    
+          div.col-md-8.col-sm-8
+            h1 Contact Me
+            hr
+            .row.contact-body
+              h2
+                | Drop me a line! I&apos;m always up to talk about anything related to web development, surfing, or hacking away at a guitar. Send me an email, or find me on GitHub and LinkedIn below          
+            .row
+              .links
+                a(href='mailto:russ@russelldubrock.com')
+                  i.fa.fa-envelope-square.fa-5x         
+                a(href='https://github.com/rdubrock')
+                  i.fa.fa-github.fa-5x
+                a(href='https://www.linkedin.com/pub/russell-dubrock')
+                  i.fa.fa-linkedin-square.fa-5x
+    script(src='./javascripts/jquery-2.1.3.js')
+    script(src='./javascripts/main.js')

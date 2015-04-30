@@ -1,0 +1,252 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  margin: 0;
+}
+/* this is the css for individual entries*/
+/**********************************
+Title heading
+**********************************/
+.header {
+display: table;
+width: 100%;
+height: 100%;
+color: #f8f8f8;
+background: url('../images/trees.jpg') center center/cover no-repeat #eee;
+text-align: center;
+z-index: 1;
+position: fixed;
+top: 0;
+left: 0;
+}
+
+.header h1 {
+  display: table-cell;
+  text-shadow: 3px 3px 2px rgba(36, 36, 42, .8);
+  font-size: 7.5em; 
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+}
+
+.header span {
+  font-size: .75em;
+}
+
+
+ /**********************************
+Project section
+**********************************/
+
+.content-container {
+width: 100%;
+margin-top: 100vh;
+margin-right: auto;
+margin-left: auto;
+position: relative;
+background: transparent;
+z-index: 2;
+box-shadow: rgba(35,35,50,0.8) 0px 0px 11px -2px;
+}
+
+#project-row {
+background: #fff;
+position: relative;
+
+
+}
+
+#project-row h1 {
+  font-size: 4em;
+  padding: 1em 0;
+  text-shadow: 2px 2px 2px rgba(36, 36, 42, .6);
+  text-align: center;
+}
+
+#project-row hr {
+  width: 66%;
+  height: .75em;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 5em;
+  background-color: black;
+  box-shadow: 2px 2px 2px rgba(36, 36, 42, .6);
+}
+
+#projects {
+margin: 0;
+width: 100%;
+list-style: none;
+display: none;
+}
+
+#slider {
+  margin: 3em;
+  margin-top: 0;
+  padding: 2em;
+  padding-top: 0;
+  padding-left: 4em;
+}
+
+.container img {
+max-width: 100%;
+}
+
+.thumbnail {
+    position:relative;
+    overflow:hidden;
+    border: .1em solid #363837;
+    box-shadow: 1px 1px .5px rgba(36, 36, 42, .6);
+    float: left;
+}
+
+.caption {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: rgba(66, 139, 202, 0.75);
+  width: 100%;
+  height: 100%;
+  padding: 2%;
+  display: none;
+  text-align: center;
+  color:#fff !important;
+  z-index: 3;
+  margin: 0;
+  padding: 0;
+}
+/**********************************
+Tools
+**********************************/
+#tools-row {
+  background-color: rgba(66, 139, 202, 0.75);
+  padding: 2%;
+}
+
+#tools {
+  text-align: center;
+  font-size: 4em;
+  padding-top: 0;
+  text-shadow: 2px 2px 2px rgba(36, 36, 42, .6);
+}
+
+#tools-images {
+  margin: 0 auto;
+}
+
+.col-md-3 img {
+  padding-top: 2%;
+  width: 100%;
+  -webkit-filter: drop-shadow(12px 12px 7px rgba(0,0,0,0.5)); filter: drop-shadow(12px 12px 7px rgba(0,0,0,0.5));
+}
+
+.pull-middle {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+
+/*.angular-logo {
+  width: 60%
+}*/
+
+/*.html-logo {
+  margin: 15%;
+}
+
+.node-logo {
+  margin: 15%;
+}*/
+/**********************************
+Contact
+**********************************/
+
+#contact-row {
+  background-color: white;
+}
+
+#contact-row h1 {
+  text-align: center;
+  font-size: 4em;
+  text-shadow: 2px 2px 2px rgba(36, 36, 42, .8);
+}
+
+#contact-row hr {
+  width: 66%;
+  height: .75em;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 3em;
+  background-color: black;
+  box-shadow: 2px 2px 2px rgba(36, 36, 42, .6);
+}
+
+.col-md-4 img {
+  padding-top: 2%;
+  width: 100%;
+  -webkit-filter: drop-shadow(12px 12px 7px rgba(0,0,0,0.5)); filter: drop-shadow(12px 12px 7px rgba(0,0,0,0.5));
+}
+
+.contact-body {
+  margin: 0 auto;
+  padding: 5%;
+  padding-top: 0;
+  padding-bottom: 0;
+  text-align: center;
+}
+.contact-photo {
+  padding: 0;
+}
+.contact-photo img {
+  -webkit-filter: drop-shadow(0px 0px 0px rgba(0,0,0,0.5));
+}
+
+.networks {
+  width: 66%;
+  padding: 3em;
+
+}
+.networks h1 {
+  margin-bottom: 1.25em;
+}
+.networks h2 {
+  margin-top: 2.5em;
+  margin-bottom: 2em;
+}
+
+.links {
+  text-align: center;
+}
+
+.fa-github{
+  text-shadow: 1.5px 1.5px 1px rgba(36, 36, 42, .8);
+}
+.fa-github:hover {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+
+.fa-linkedin-square {
+  text-shadow: 1.5px 1.5px 1px rgba(36, 36, 42, .8);
+}
+.fa-linkedin-square:hover {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+
+.fa-envelope-square {
+  text-shadow: 1.5px 1.5px 1px rgba(36, 36, 42, .8);
+}
+.fa-envelope-square:hover {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+
+}
+
+a {
+  color: inherit;
+}
+
+i {
+  margin: .25em;
+}
