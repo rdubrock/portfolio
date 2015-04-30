@@ -6,4 +6,5 @@
 
 rsync -t app.js russ@russdubrock.com:~/portfolio
 rsync -rt public russ@russdubrock.com:~/portfolio
+rsync -rt views russ@russdubrock.com:~/portfolio
 rsync -t package.json russ@russdubrock.com:~/portfolio
