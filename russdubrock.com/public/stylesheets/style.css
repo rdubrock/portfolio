@@ -93,11 +93,11 @@ max-width: 100%;
 }
 
 .thumbnail {
-    position:relative;
-    overflow:hidden;
-    border: .1em solid #363837;
-    box-shadow: 1px 1px .5px rgba(36, 36, 42, .6);
-    float: left;
+  position:relative;
+  overflow:hidden;
+  border: .1em solid #363837;
+  box-shadow: 1px 1px .5px rgba(36, 36, 42, .6);
+  float: left;
 }
 
 .caption {
@@ -114,7 +114,13 @@ max-width: 100%;
   z-index: 3;
   margin: 0;
   padding: 0;
+  overflow-y: scroll; 
 }
+
+.btn {
+  margin: 2%;
+}
+
 /**********************************
 Tools
 **********************************/
@@ -240,7 +246,6 @@ Contact
 .fa-envelope-square:hover {
   -webkit-filter: invert(100%);
   filter: invert(100%);
-
 }
 
 a {
