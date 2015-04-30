@@ -1,0 +1,9 @@
+#!/bin/bash
+
+
+#This script will upload the recompiled public/ and app.js files from a local Gulp build of Treksmith. If any node modules were added, you should run npm install on the production server.
+#
+
+rsync -t app.js russ@russdubrock.com:~/portfolio
+rsync -rt public russ@russdubrock.com:~/portfolio
+rsync -t package.json russ@russdubrock.com:~/portfolio
