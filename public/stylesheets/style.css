@@ -12,7 +12,7 @@ display: table;
 width: 100%;
 height: 100%;
 color: #f8f8f8;
-background: url('../images/trees.jpg') center center/cover no-repeat #eee;
+background: url('../images/trees-compressed.jpg') center center/cover no-repeat #eee;
 text-align: center;
 z-index: 1;
 position: fixed;
