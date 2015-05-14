@@ -136,7 +136,8 @@ Tools
 }
 
 #tools-images {
-  margin: 0 auto;
+  margin: 2% auto;
+  padding: 2%;
 }
 
 .col-md-3 img {
