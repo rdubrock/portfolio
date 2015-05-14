@@ -24,6 +24,18 @@ $( document ).ready(function() {
       } 
     }); 
   }
+
+  if (window.innerWidth <= 600) {
+    $(window).scroll(function() {
+      if ($(this).scrollTop() > window.innerHeight/1.25) {
+        $('.header h1').hide();
+      }
+
+      if ($(this).scrollTop() < window.innerHeight/1.25) {
+          $('.header h1').show();
+      } 
+    });
+  }
  $('.thumbnail').hover(
         function(){
             $(this).find('.caption').slideDown(250); //.fadeIn(250)
