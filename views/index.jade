@@ -13,40 +13,43 @@ block content
           | My name is Russ.
           br       
           span I&apos;m a developer
+          br
+          br
+          br
+          i.fa.fa-angle-down 
       .content-container
         #project-row.row
-          h1 Check out my latest projects
+          h1.text-center Side Projects
           hr
           #slider.row
-            .row
-              .thumbnail
-                .caption
-                  h2 Treksmith
-                  p.lead 
-                    |Treksmith allows users to build, save, and share custom routes created on a simple and intuitive interface. I worked with a team of 4 over the course of a month to create Treksmith, and work is ongoing. We used a MEAN stack (Mongo, Express, Angular, Node).  
-                  a.btn.btn-danger(href='http://www.treksmith.com')
-                    p  View site
-                  a.btn.btn-warning(href='https://github.com/wbeck32/road-warrior')
-                    p Github repo
-                img(src='./images/treksmith.png')
-              .thumbnail
-                .caption
-                  h2 Rasberry Pi Tinkering
-                  p.lead 
-                    |In my free time I've been playing around with a Rasberry Pi. I currently have one set up to run a print server for my home, and I'm working on an N64 emulator so I can get my Mario fix.
-                img(src='./images/raspi.jpg')
+            .row.text-center
+              h2 Treksmith
+              img(src='./images/treksmith-compressed.png').img-thumbnail.center-block
+              br
+              p.lead 
+                |Treksmith allows users to build, save, and share custom routes created on a simple and intuitive interface. I worked with a team of 4 over the course of a month to create Treksmith. We used a MEAN stack (Mongo, Express, Angular, Node).  
+              a.btn.btn-danger(href='http://www.treksmith.com').center-text
+                p  View site
+              a.btn.btn-warning(href='https://github.com/wbeck32/road-warrior').center-text
+                p Github repo
         #tools-row.row
-          
             h1#tools The Tools I&apos;ve Been Using
             .row.row-eq-height#tools-images
-              .col-md-3.col-sm-3.pull-middle
+              .col-md-4.col-sm-4.pull-middle
                   img.node-logo(src='./images/2000px-Node.js_logo.svg.png')
-              .col-md-3.col-sm-3.pull-middle
+              .col-md-4.col-sm-4.pull-middle
                   img.html-logo(src='./images/html-css-js.png')
-              .col-md-3.col-sm-3.pull-middle
+              .col-md-4.col-sm-4.pull-middle
                   img.angular-logo(src='./images/angular-js.jpg')
+            .row.row-eq-height#tools-images
               .col-md-3.col-sm-3.pull-middle
-                  img(src='./images/mongo.png')
+                  img.node-logo(src='./images/react.png')
+              .col-md-3.col-sm-3.pull-middle
+                  img.html-logo(src='./images/redux.png')
+              .col-md-3.col-sm-3.pull-middle
+                  img.angular-logo(src='./images/swift.jpeg')
+              .col-md-3.col-sm-3.pull-middle
+                  img.angular-logo(src='./images/ionic.png')
         #contact-row.row
           div.col-md-4.col-sm-4.contact-photo
             img(src='./images/russphoto.jpg')    
